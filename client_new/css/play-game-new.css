@@ -1,0 +1,54 @@
+#test {
+    color: red;
+}
+
+.play-game-wrapper {
+    padding: 1rem;
+}
+
+.game-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7rem;
+}
+
+.game-card {
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+}
+
+.game-text {
+    width: 100%;
+    height: 15rem;
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.play-game-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-right-param {
+    margin-left: 2rem;
+    color: black;
+    font-size: 1.4rem;
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
+.time-remaining {
+     font-size: 2rem;
+     font-weight: 800;
+     color: black;
+ }

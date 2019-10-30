@@ -1,0 +1,14 @@
+{{##def.page_title = 'Play' #}}
+
+{{##def.content:
+    <div id="game-container">
+        We are having some problem wile loading. Please wait till the bug has been fix. Your money is safe with us.
+    </div>
+<!--
+    <!--RequireJs-->
+    <script data-main="/scripts/main" src="{{? it.buildConfig }}/scripts/{{=it.buildConfig['main-new.js']}}{{??}}/node_modules/requirejs/require.js{{?}}"></script>
+-->
+    <!-- Detect the viewport size with css and javascript hack -->
+    
+#}}
+{{#def.include('./template/game_new')}}
